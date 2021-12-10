@@ -1,0 +1,116 @@
+.white-button {
+    color: black;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    margin: 0 3px;
+    height: 100%;
+    flex-grow: 1;
+    max-width: 100px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    &:hover {
+        color: black;
+        background-color: rgb(231, 230, 230);
+        border: 1px solid black;
+    }
+    &:focus {
+        color: black;
+        background-color: rgb(231, 230, 230);
+        border: 1px solid black;
+    }
+}
+
+.white-button-playing {
+    color: black;
+    background-color: rgb(204, 204, 204);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin: 0 3px;
+    height: 100%;
+    flex-grow: 1;
+    max-width: 100px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+    &:focus {
+        color: black;
+        background-color: rgb(231, 230, 230);
+        border: 1px solid black;
+    }
+    &:hover {
+        color: black;
+        background-color: rgb(231, 230, 230);
+        border: 1px solid black;
+    }
+}
+
+.black-button-playing {
+    color: white;
+    background-color: rgb(66, 66, 66);
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    z-index: 4;
+    transform: translateX(-50%);
+    height: 60%;
+    flex-grow: 1;
+    max-width: 90px;
+    width: 45px;
+    border: 1px solid black;
+    border-radius: 5px;
+    &:focus {
+        color: white;
+        background-color: rgb(29, 29, 29);
+        border: 1px solid black;
+    }
+    &:hover {
+        color: white;
+        background-color: rgb(29, 29, 29);
+        border: 1px solid black;
+    }
+}
+
+.black-button-wrp {
+    position: relative;
+}
+
+.black-button {
+    text-align: center;
+    padding: 0;
+    color: white;
+    position: absolute;
+    z-index: 4;
+    transform: translateX(-50%);
+    background-color: black;
+    height: 60%;
+    flex-grow: 1;
+    max-width: 90px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    &:hover {
+        color: white;
+        background-color: rgb(29, 29, 29);
+        border: 1px solid black;
+    }
+    &:focus {
+        color: white;
+        background-color: rgb(29, 29, 29);
+        border: 1px solid black;
+    }
+}
+
+.button-text {
+    position: absolute;
+    margin: auto;
+    bottom: 5%;
+    right: 15%;
+}

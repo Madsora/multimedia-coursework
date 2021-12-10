@@ -1,0 +1,17 @@
+.top-part {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    .header {
+        display: flex;
+        font-weight: bold;
+        justify-content: space-between;
+        padding: 10px;
+        flex-direction: row;
+        max-width: 100%;
+        .buttons-block {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}
